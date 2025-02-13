@@ -17,7 +17,7 @@ const Mutation = new GraphQLObjectType({
         login: userResolvers.login,
         addEmployee: employeeResolvers.addEmployee,
         updateEmployee: employeeResolvers.updateEmployee,
-        deleteEmployee: employeeResolvers.deleteEmployee  // 🔥 Ensure this is included!
+        deleteEmployee: employeeResolvers.deleteEmployee 
     }
 });
 
